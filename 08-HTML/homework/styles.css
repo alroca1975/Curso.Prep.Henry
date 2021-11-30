@@ -1,17 +1,30 @@
+body{
+    margin-left: 100;
+    margin-right: 100;
+    margin-top: 100;
+}
 h1{
     color: orangered;
 }
 img{
     width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-flexbox;
 }
 .thirdDiv{
-    height: 600px;
+    height: 1200px;
     background: palegoldenrod;
     padding: 50px;
+    position:relative;
+    display:flexbox;
 }
 #spanid{
     font-size: 18px;
    margin-top: 50px;
    margin-bottom: 50px;
    border: peru solid;
+}
+.divClass{
+    position: relative;
 }
